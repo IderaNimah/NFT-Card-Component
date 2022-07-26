@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+/* The Component Div */
+.body-comp {
+  margin: auto;
+  width: 200px;
+  background-color: hsl(216, 50%, 16%);
+  height: 403px;
+  margin-top: 90px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 232px;
+}
+/* Ethereum Div */
+.real-image {
+  border-radius: 7px;
+  margin-right: 4px;
+}
+/* Card Text */
+.text-one {
+  margin-top: 12px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.sub-text {
+  margin-top: 11px;
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  font-family: 'Outfit', sans-serif;
+}
+.sub-text-two {
+  margin-top: 4px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  border-bottom: 1px solid hsl(215, 51%, 70%);
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+/* The Ruby and Clock div */
+.ruby-word {
+  display: flex;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+  letter-spacing: 1px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 13px;
+}
+.ruby-word img {
+  margin-right: 5px;
+}
+.clock-word {
+  display: flex;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  font-family: "Outfit", sans-serif;
+}
+.clock-word img {
+  margin-right: 5px;
+}
+/* Avatar */
+.avatar-word {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+}
+.avatar {
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-right: 1rem;
+  width: 30px;
+}
+span {
+  color: white;
+  margin-left: 5px;
+}
+/* The Active States */
+ h3:hover, span:hover { 
+    color: hsl(178, 100%, 50%);
+}
